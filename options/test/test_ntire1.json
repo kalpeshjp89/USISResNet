@@ -28,7 +28,7 @@
     , "norm_type": null
     , "mode": "CNA"
     , "nf": 32
-    , "nb": 32
+    , "nb": 24
     , "in_nc": 3
     , "out_nc": 3
 
