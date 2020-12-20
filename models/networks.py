@@ -84,7 +84,7 @@ def define_G1(opt):
     gpu_ids = opt['gpu_ids']
     opt_net = opt['network_G']
 
-    netG = arch.RRDBNet(in_nc=opt_net['in_nc'], out_nc=opt_net['out_nc'], nf=opt_net['nf'],
+    netG = arch.RRDBNet2(in_nc=opt_net['in_nc'], out_nc=opt_net['out_nc'], nf=opt_net['nf'],
         nb=opt_net['nb'], upscale=opt_net['scale'], norm_type=opt_net['norm_type'],
         act_type='leakyrelu', mode=opt_net['mode'], upsample_mode='upconv')
     
