@@ -8,6 +8,8 @@ python test.py -opt option/test/test_ntire1.json
 
 (pre-train model is shared in main folder named "11600_G.pth")
 
+You can find "latest_G.pth" model which is pre-trained network for QA assessment trained on KADID dataset as mentioned in the manuscript.
+
 Required Packages.
 pytorch 1.4
 opencv 3.4.2
