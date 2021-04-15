@@ -29,7 +29,7 @@ python test.py -opt PATH-to-json-file
 ```
 
 **- Pre-trained model**
-- The pre-train model is shared in main folder named `11600_G.pth` for USISResNet.
+- The pre-train model is shared in main folder named `116000_G.pth` for USISResNet.
 - The pre-trained model for QA assessment network trained on KADID dataset as mentioned in the manuscript has also be included as `latest_G.pth`.
 
 **- Required Packages**
