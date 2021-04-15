@@ -38,3 +38,18 @@ The list of all required packages are included in `usisresnet.yml` file. You can
 We are thankful to Xinntao for their [ESRGAN](https://github.com/xinntao/ESRGAN) code on which we have made this work.
 
 For any problem or query, you may contact to Kalpesh Prajapati at <kalpesh.jp89@gmail.com>
+
+---
+**Citation**
+```javascript
+@INPROCEEDINGS{9151093,
+  author={K. {Prajapati} and V. {Chudasama} and H. {Patel} and K. {Upla} and R. {Ramachandra} and K. {Raja} and C. {Busch}},
+  booktitle={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
+  title={Unsupervised Single Image Super-Resolution Network (USISResNet) for Real-World Data Using Generative Adversarial Network}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1904-1913},
+  doi={10.1109/CVPRW50498.2020.00240}}
+  ```
+  
