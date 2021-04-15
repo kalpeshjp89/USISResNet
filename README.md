@@ -33,8 +33,8 @@ python test.py -opt PATH-to-json-file
 - The pre-trained model for QA assessment network trained on KADID dataset as mentioned in the manuscript has also be included as `latest_G.pth`.
 
 **- Required Packages**
-pytorch 1.4
-opencv 3.4.2
-python-lmdb 0.96
+The list of all required packages are included in `usisresnet.yml` file. You can simply import the .yml file using conda environment.
 
 We are thankful to Xinntao for their [ESRGAN](https://github.com/xinntao/ESRGAN) code on which we have made this work.
+
+For any problem or query, you may contact to Kalpesh Prajapati at <kalpesh.jp89@gmail.com>
