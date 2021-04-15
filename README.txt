@@ -1,14 +1,16 @@
-This is repository of code for NTIRE-2020 (CVPR-2020) paper titled "Unsupervised Single Image Super-Resolution Network (USISResNet) for Real-World Data Using Generative Adversarial Network"
-Paper Link: https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Prajapati_Unsupervised_Single_Image_Super-Resolution_Network_USISResNet_for_Real-World_Data_Using_CVPRW_2020_paper.pdf
+# Unsupervised Single Image Super-Resolution Network (USISResNet) for Real-World Data Using Generative Adversarial Network
 
+This is repository of code for NTIRE-2020 (CVPRW-2020) paper titled ["Unsupervised Single Image Super-Resolution Network (USISResNet) for Real-World Data Using Generative Adversarial Network"](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Prajapati_Unsupervised_Single_Image_Super-Resolution_Network_USISResNet_for_Real-World_Data_Using_CVPRW_2020_paper.pdf)
 
-To test/reproduce results, change "option/test/test_ntire1.json" file in which you need to change path for dataset and pre-trained model of G network.
+To test/reproduce results, change `option/test/test_ntire1.json` file in which you need to change path for dataset and pre-trained model of G network.
 Then you need run following command.
+```javascript
 python test.py -opt option/test/test_ntire1.json
+```
 
-(pre-train model is shared in main folder named "11600_G.pth")
-
-You can find "latest_G.pth" model which is pre-trained network for QA assessment trained on KADID dataset as mentioned in the manuscript.
+**- Pre-trained model**
+- The pre-train model is shared in main folder named "11600_G.pth" for USISResNet.
+- The pre-trained model for QA assessment network trained on KADID dataset as mentioned in the manuscript has also be included as "latest_G.pth".
 
 Required Packages.
 pytorch 1.4
