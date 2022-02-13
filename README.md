@@ -22,7 +22,7 @@ This is repository of code for NTIRE-2020 (CVPRW-2020) paper titled ["Unsupervis
 
 
 **- Test the model**
-To test/reproduce results, change `option/test/test_ntire1.json` file in which you need to change path for dataset and pre-trained model of G network.
+To test/reproduce results, change `options/test/test_ntire1.json` file in which you need to change path for dataset and pre-trained model of G network.
 Then you need run following command.
 ```javascript
 python test.py -opt PATH-to-json-file
